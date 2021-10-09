@@ -19,10 +19,10 @@ In this chapter you will learn about:
 
 ## Big O notation:
 
-| Algorithm      | Average case | Worst case |
-| :------------- | :----------: | ---------: |
-| Quicksort      |  O(n log n)  |      O(n2) |
-| Selection sort |  O(n log n)  |      O(n2) |
+| Algorithm  | Average case | Worst case |
+| :--------- | :----------: | ---------: |
+| Quicksort  |  O(n log n)  |      O(n2) |
+| Merge sort |  O(n log n)  | O(n log n) |
 
 **Quicksort is a tricky case. In worst case, it takes O(n2) time. It's as slow as selection sort! But in average case, it takes O(n log n) time**
 
