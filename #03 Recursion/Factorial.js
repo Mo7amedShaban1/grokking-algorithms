@@ -1,4 +1,16 @@
-// Factorial of 5 = 5 * 4 * 3 * 2 * 1
+// n! = n * (n-1) * (n-2) * .......
+// 3! = 3 * 2 * 1 * 1
+
+function factorial(n) {
+  if (n <= 1) return n;
+  var x = n;
+
+  while (n > 1) {
+    x = x * (n - 1);
+    n--;
+  }
+  return x;
+}
 
 // Head Recursion
 function headFactorial(n) {
@@ -11,10 +23,7 @@ function tailFactorial(n, res = 1) {
   if (n === 0) return res;
   return tailFactorial(n - 1, n * res);
 }
-// 4: (0, 6) => result is 6
-// 3: (1, 6)
-// 2: (2, 3)
-// 1: (3, 1)
 
-console.log(headFactorial(3));
-console.log(tailFactorial(3));
+console.log(`Factorial iteration: ` + factorial(11));
+console.log(`Head recursion: ` + headFactorial(11));
+console.log(`Tail recursion`, tailFactorial(11));

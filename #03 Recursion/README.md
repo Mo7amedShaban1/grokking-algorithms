@@ -7,6 +7,11 @@ Recursion is where a function calls itself and it has two cases:
 - Base case
 - Recursive case
 
+### Types:
+
+- Tail recursion: if the recursion call is the last thing done by the function.
+- non-tail recursion: if the recursion call is not the last thing done by the function.
+
 **Quote:** Loops may achieve performance gain for your program. Recursion may achieve a performance gain for your programmer. Choose which is more important in your situation.
 
 ## Stack:
