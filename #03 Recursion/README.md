@@ -17,6 +17,7 @@ Stack is a data structure built on first in last out strategy. and your computer
 
 - Recursion is when a function calls itself.
 - Every recursive function has two cases: the base case and recursive case.
+- Tail recursion is much better than head recursion.
 - A stack has two operations: push and pop.
 - All function calls go into the call stack.
 - The call stack can get vey large, which takes up a lot of memory and may exit with a stack overflow error.
