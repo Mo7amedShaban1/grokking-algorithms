@@ -31,3 +31,8 @@ Two or multiple keys have been assigned the same slot.
 Hash function resizes the size of the array when the load factor reach a certain number.
 
 ![alt text](https://miro.medium.com/max/1400/1*ONlsW4t4hS-6ZjiJzLZVRA.png)
+
+## Resources:
+
+- [Hash table and hash function](https://www.youtube.com/watch?v=KyUTuwz_b7Q)
+- [Hash table index calculator](http://users.csc.calpoly.edu/~jdalbey/103/Lectures/HashtableCalc.html)
